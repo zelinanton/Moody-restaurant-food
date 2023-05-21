@@ -413,11 +413,19 @@ body{
 .contact__icons-icon{
     margin-right: 16px;
 }
+.contact__icons-icon:hover{
+    margin-right: 16px;
+    cursor: pointer;
+}
 .contact__icons-text{
     margin-bottom: 17px;
 }
 .gallery__contacts-link{
     color: #ffba00;
+}
+.gallery__contacts-link:hover{
+    color: #ffba00;
+    cursor: pointer;
 }
 .name-name{
     font-family: Raleway Bold;
@@ -452,6 +460,15 @@ body{
     margin-top: 66px;
     margin-bottom: 41px;
 }
+.footer__column-title:hover{
+    font-family: Raleway Bold;
+    font-size: 25px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-top: 66px;
+    margin-bottom: 41px;
+    cursor: pointer;
+}
 .footer__left-column{
     margin-left: 240px;
     margin-bottom: 110px;
@@ -465,6 +482,13 @@ body{
 .footer__column-item{
     font-family: Raleway Bold;
     font-size: 20.83px;
+}
+.footer__column-item:hover{
+    font-family: Raleway Bold;
+    font-style: italic;
+    font-size: 20.83px;
+    font-style: italic;
+    cursor: pointer;
 }
 .footer__column:last-child{
     margin-right: 130px;
